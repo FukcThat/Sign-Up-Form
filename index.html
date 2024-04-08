@@ -36,11 +36,50 @@
       <p>
         This website will do very little and bring you absolutely nowhere. Enjoy
         the ride, fill out a nice form for no reason or reward whatsoever and
-        give it a like if you found it on The Odin Project.
+        give it a like if you found it on The Odin Project. <br />
+        Or don't. You do you.
       </p>
-      <p>Or don't. You do you.</p>
     </div>
-    <div id="rightMiddleSide" class="Section"></div>
+    <div id="rightMiddleSide" class="Section">
+      <label for="firstName">First Name</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        required
+        minlength="1"
+        maxlength="20"
+      />
+      <label for="lastName">Last Name</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        required
+        minlength="1"
+        maxlength="20"
+      />
+      <label for="eMail">E-Mail</label>
+      <input type="email" id="eMail" required minlength="1" maxlength="30" />
+      <label for="phoneNumber">Phone Number</label>
+      <input type="tel" id="phoneNumber" required minlength="1" />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        required
+        minlength="1"
+        maxlength="25"
+      />
+      <label for="confirmPassword">Confirm Password</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        required
+        minlength="1"
+        maxlength="25"
+      />
+    </div>
     <div id="rightBottomSide" class="Section">
       <button>Create Account</button>
       <p>

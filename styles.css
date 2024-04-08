@@ -4,7 +4,6 @@
     font-family: "Teko", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
 }
 
 body {
@@ -27,7 +26,6 @@ button {
 
 .Section {
     width: 65%;
-    height: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,12 +73,22 @@ button {
 
 #rightTopSide {
     width: 55%;
-    border: red 1px solid;
+    height: 30%;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
+    font-size: 2rem;
 }
 
 #rightMiddleSide {
+    height: 45%;
     background-color: rgb(200, 213, 208);
     box-shadow: 1px 5px 5px rgba(1, 36, 28, 0.5);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#rightBottomSide {
+    height: 25%;
+    font-size: 1.5rem;
 }
