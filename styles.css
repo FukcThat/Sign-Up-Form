@@ -30,7 +30,23 @@ input {
     width: 100%;
     border-radius: 5px;
     border: rgb(198, 198, 198) solid 2px;
-    
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(29, 95, 142);
+    box-shadow: 2px 2px 5px rgba(9, 45, 57, 0.5);
+}
+
+label {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
 }
 
 .Section {
@@ -111,5 +127,19 @@ input {
 
 #rightBottomSide {
     height: 25%;
+    font-size: 1.5rem;
+}
+
+#accConfirm {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+#logInLink {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 1.5rem;
 }
