@@ -36,9 +36,9 @@ input {
     font-size: 1.5rem;
 }
 
-input:invalid {
+.passwords:invalid {
     border-color: rgb(205, 61, 61);
-    box-shadow: 2px 2px 5px rgba(139, 17, 17, 0.5);
+    box-shadow: 2px 1px 5px rgba(139, 17, 17, 0.5);
 }
 
 input:focus {
