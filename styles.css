@@ -29,7 +29,6 @@ button {
 
 button:hover {
     background-color: rgb(71, 130, 194);
-    border: dotted rgb(148, 179, 193) 2px;
 }
 
 button:active {
