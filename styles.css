@@ -54,6 +54,11 @@ input {
     box-shadow: 2px 1px 5px rgba(139, 17, 17, 0.5);
 }
 
+.passwords:valid {
+    border-color: rgb(169, 205, 61);
+    box-shadow: 2px 1px 5px rgba(92, 139, 17, 0.5);
+}
+
 input:focus {
     outline: none;
     border-color: rgb(29, 95, 142);

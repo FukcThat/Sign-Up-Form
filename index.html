@@ -58,7 +58,6 @@
             placeholder="Katherine"
             required
             minlength="1"
-            maxlength="20"
           />
         </div>
         <div class="column">
@@ -70,7 +69,6 @@
             placeholder="Johnson"
             required
             minlength="1"
-            maxlength="25"
           />
         </div>
       </div>
@@ -82,13 +80,11 @@
             id="eMail"
             placeholder="katherine@johnson.com"
             required
-            minlength="1"
-            maxlength="30"
           />
         </div>
         <div class="column">
           <label for="phoneNumber">Phone Number</label>
-          <input type="number" id="phoneNumber" placeholder="202-384-4861" required pattern="[0-9]{3}[0-9]{3}-[0-9]{4}" minlength="1" />
+          <input type="number" id="phoneNumber" placeholder="202-384-4861" required pattern="[0-9]{3}[0-9]{3}-[0-9]{4}"/>
         </div>
       </div>
       <div class="row">
@@ -99,9 +95,9 @@
             type="password"
             id="password"
             placeholder="Password"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).$"
             required
-            minlength="1"
-            maxlength="25"
+            minlength="8"
           />
         </div>
         <div class="column">
@@ -111,9 +107,9 @@
             type="password"
             id="confirmPassword"
             placeholder="Password"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).$"
             required
-            minlength="1"
-            maxlength="25"
+            minlength="8"
           />
         </div>
       </div>
