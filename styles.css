@@ -177,3 +177,26 @@ form {
     font-style: normal;
     font-size: 1.5rem;
 }
+
+#passCornfirmTxt {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+#passwordRequirements li {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: red;
+}
+
+#passwordRequirements li.met {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: green;
+}
