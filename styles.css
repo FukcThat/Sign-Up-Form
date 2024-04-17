@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: rgb(1, 2, 24);
+    color: rgb(216, 231, 221);
     font-family: "Teko", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -10,7 +10,7 @@
 body {
     max-width: 100vw;
     height: 100vh;
-    background-color: rgb(190, 211, 215);
+    background-color: rgb(32, 32, 32);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,15 +20,15 @@ button {
     padding: 1rem 3rem;
     border: none;
     border-radius: 15px;
-    background-color: rgb(50, 113, 147);
-    box-shadow: 2px 2px 5px rgba(3, 33, 47, 0.5);
+    background-color: rgba(18, 180, 107, 0.5);
+    box-shadow: 2px 2px 5px rgb(3, 16, 0);
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(71, 130, 194);
+    background-color: rgb(58, 157, 96);
 }
 
 button:active {
@@ -41,12 +41,13 @@ input {
     padding: 5px;
     width: 100%;
     border-radius: 5px;
-    border: rgb(198, 198, 198) solid 2px;
+    border: rgb(94, 107, 97) solid 2px;
     font-family: "M PLUS 1 Code", monospace;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
+    background-color: rgb(32, 32, 32);
 }
 
 .passwords:invalid {
@@ -61,7 +62,7 @@ input {
 
 input:focus {
     outline: none;
-    border-color: rgb(29, 95, 142);
+    border-color: rgb(198, 235, 200);
     box-shadow: 2px 2px 5px rgba(9, 45, 57, 0.5);
 }
 
@@ -144,7 +145,7 @@ form {
 
 #rightTopSide {
     width: 55%;
-    height: 30%;
+    height: 25%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -152,9 +153,9 @@ form {
 }
 
 #rightMiddleSide {
-    height: 45%;
-    background-color: rgb(222, 232, 237);
-    box-shadow: 1px 5px 5px rgba(1, 36, 28, 0.5);
+    height: 50%;
+    background-color: rgb(38, 56, 44);
+    box-shadow: 0px 10px 10px rgb(3, 16, 0);
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -190,7 +191,7 @@ form {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 1.25rem;
-    color: red;
+    color: rgb(255, 162, 162);
 }
 
 #passwordRequirements li.met {
@@ -198,5 +199,5 @@ form {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 1.25rem;
-    color: green;
+    color: rgb(146, 255, 146);
 }
